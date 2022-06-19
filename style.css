@@ -1,0 +1,24 @@
+.accordion-heading {
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #0dd2cc;
+
+}
+
+
+.accordion-block {
+    background-color: #52ea42;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+
+}
+
+.accordion-block.active-content {
+    overflow: visible;
+    opacity: 1;
+    padding: 3rem 4rem;
+    margin-top: 1rem;
+}
